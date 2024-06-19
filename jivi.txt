@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIVI - Ian Abdi Alcala Corona</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #58CC02;
+            color: white;
+            padding: 1rem 0;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #58CC02;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin: 2rem 0;
+        }
+        footer {
+            background-color: #58CC02;
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #58CC02;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 1rem 0;
+        }
+        .button:hover {
+            background-color: #45a500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JIVI</h1>
+        <p>Ian Abdi Alcala Corona</p>
+    </header>
+
+    <nav>
+        <a href="#tutoriales">Tutoriales</a>
+        <a href="#juegos">Juegos Educativos</a>
+        <a href="#ai">Inteligencias Artificiales</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="tutoriales" class="section">
+            <h2>Tutoriales</h2>
+            <p>Aquí encontrarás una serie de tutoriales diseñados para ayudarte a aprender de manera efectiva y divertida.</p>
+            <button class="button">Ver Tutoriales</button>
+        </section>
+
+        <section id="juegos" class="section">
+            <h2>Juegos Educativos</h2>
+            <p>Participa en nuestros juegos interactivos para reforzar tus conocimientos mientras te diviertes.</p>
+            <button class="button">Jugar Ahora</button>
+        </section>
+
+        <section id="ai" class="section">
+            <h2>Inteligencias Artificiales</h2>
+            <p>Nuestras inteligencias artificiales están aquí para ayudarte. Una te ayudará a organizarte y la otra a guiarte en tu aprendizaje.</p>
+            <button class="button">Conocer más</button>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o necesitas ayuda? Contáctanos.</p>
+            <button class="button">Enviar Mensaje</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ian Abdi Alcala Corona. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
